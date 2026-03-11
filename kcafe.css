@@ -1,0 +1,94 @@
+#div1,#div2,#div3,#div4,#div5,#div6{
+    padding: 10px;
+    border:2px solid salmon;
+    color:bisque;
+    flex-direction: row;
+    line-height: 20px;
+    background-color: black;
+    height:30px;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+    width:100%
+}
+#containor{
+    width:100%;
+    margin:auto;
+    display: flex;
+}
+#div1:hover,#div2:hover,#div3:hover,#div4:hover,#div5:hover,#div6:hover{
+    background-color: pink;
+    a{
+        color: black;
+    }
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(249, 172, 163);
+}
+#name{
+    border: 2px solid salmon;
+    background-color:rgb(249, 172, 163);
+    margin:auto;
+    font-size: 37px;
+    width:100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#name img{
+        width:120px;
+        height: 110px;
+        margin-right: 20px;
+    }
+#name p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
+    }  
+#pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+} 
+#pc pre{
+     text-align: center;
+     font-size:30px;
+     align-items: center;
+} 
+#pc img{
+    width:200px;
+    height:400px;
+    float: left;
+    width:auto;
+}
+#br{
+    text-align: center;
+    height: 90px;
+}
+#br p{
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+}
+#br button{
+    padding:12px 25px;
+    font-size:18px;
+    background-color:black;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+.div8{
+    margin:20px;
+}
+.div7 #img{
+    height:500px;
+}
+#br button:hover{
+    background-color:salmon;
+    color:black;
+}

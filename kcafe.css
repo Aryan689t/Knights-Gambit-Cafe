@@ -155,17 +155,6 @@ a{
     font-weight: normal;
     text-decoration: underline;
 }
-#mc h1{
-     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-align: center;
-     font-weight: normal;
-}
-#mc{
-    border:4px double salmon;
-}
-#mc p{
-    font-size: 100px;
-}
 #menu-wrapper {
     max-width: 700px;              
     margin: 50px auto;
@@ -176,19 +165,29 @@ a{
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
 }
 .menu-heading {
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-weight: normal;
     font-size: 48px;               
     margin-bottom: 40px;
     text-decoration: underline;
+}
+.menu-heading:hover{
+    color:palevioletred;
 }
 .menu-category {
     margin-bottom: 35px;
 }
 .menu-category h2 {
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
     font-size: 26px;
     margin-bottom: 15px;
     border-bottom: 2px solid salmon;
     padding-bottom: 5px;
+}
+.menu-category h2:hover{
+    color:salmon;
 }
 .menu-item {
     display: flex;
@@ -199,5 +198,53 @@ a{
 }
 .menu-item:hover {
     color: salmon;
-    transform: translateX(5px);
+    transform: translate(5px);
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+#arena {
+    display: flex;
+    height: 100vh;
+}
+.left, .right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left {
+    background-color: #1a1a1a;  
+    color: #f9aca3;
+}
+
+.right {
+    background-color: #f9aca3;
+    color: #1a1a1a;
+}
+.left h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.left ul {
+    line-height: 1.8;
+    font-size: 17px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.row:hover {
+    background-color: #1a1a1a;;
+    color: salmon;
+    padding-left: 8px;
+    border-radius: 5px;
 }

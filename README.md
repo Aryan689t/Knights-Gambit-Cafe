@@ -18,3 +18,6 @@ This project is a themed café landing page created while learning basic web dev
 
 - HTML
 - CSS
+
+## Live Demo
+- https://aryan689t.github.io/Knights-Gambit-Cafe/
